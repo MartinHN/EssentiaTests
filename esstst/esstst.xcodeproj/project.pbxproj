@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0360EA19C2F5630014D74B /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E019C2F5630014D74B /* libavcodec.a */; };
+		6F0360EB19C2F5630014D74B /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E119C2F5630014D74B /* libavformat.a */; };
+		6F0360EC19C2F5630014D74B /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E219C2F5630014D74B /* libavutil.a */; };
+		6F0360EE19C2F5630014D74B /* libfftw3f.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E419C2F5630014D74B /* libfftw3f.a */; };
+		6F0360EF19C2F5630014D74B /* libsamplerate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E519C2F5630014D74B /* libsamplerate.a */; };
+		6F0360F019C2F5630014D74B /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E619C2F5630014D74B /* libswresample.a */; };
+		6F0360F119C2F5630014D74B /* libtag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E719C2F5630014D74B /* libtag.a */; };
+		6F0360F219C2F5630014D74B /* libyaml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E819C2F5630014D74B /* libyaml.a */; };
+		6F0360F319C2F5630014D74B /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360E919C2F5630014D74B /* libz.a */; };
+		6F0360F519C2F6950014D74B /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360F419C2F6950014D74B /* libbz2.dylib */; };
+		6F0360F719C2F6A60014D74B /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360F619C2F6A50014D74B /* libstdc++.6.0.9.dylib */; };
+		6F0360F919C2F6B70014D74B /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360F819C2F6B70014D74B /* VideoDecodeAcceleration.framework */; };
+		6F0360FB19C2F6C30014D74B /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360FA19C2F6C30014D74B /* libiconv.dylib */; };
+		6F0360FF19C2F8340014D74B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0360FE19C2F8340014D74B /* CoreVideo.framework */; };
+		6F03610119C2F83B0014D74B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F03610019C2F83B0014D74B /* CoreMedia.framework */; };
+		6F225FB9197FBCB700FF85A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F225FB8197FBCB700FF85A2 /* Cocoa.framework */; };
+		6F225FC3197FBCB700FF85A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F225FC1197FBCB700FF85A2 /* InfoPlist.strings */; };
+		6F225FEE197FBD8500FF85A2 /* File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F225FEC197FBD8500FF85A2 /* File.cpp */; };
+		6F5E979219E7F044009380C3 /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5E979119E7F044009380C3 /* libboost_filesystem.a */; };
+		6F5E979419E7F074009380C3 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F5E979319E7F074009380C3 /* libboost_system.a */; };
+		6F94ED7019C2F94E00C92BCA /* libessentiaX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F225FF7197FBEC800FF85A2 /* libessentiaX.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F225FF6197FBEC800FF85A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F225FF2197FBEC800FF85A2 /* essentiaX.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6FD0EB0E197E7B070093FFB6;
+			remoteInfo = essentiaX;
+		};
+		6F94ED7119C2F96E00C92BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F225FF2197FBEC800FF85A2 /* essentiaX.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD0EB0D197E7B070093FFB6;
+			remoteInfo = essentiaX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F0360E019C2F5630014D74B /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = "../../Essentia-Libraries/i386-2.0.1/libavcodec.a"; sourceTree = "<group>"; };
+		6F0360E119C2F5630014D74B /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavformat.a; path = "../../Essentia-Libraries/i386-2.0.1/libavformat.a"; sourceTree = "<group>"; };
+		6F0360E219C2F5630014D74B /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavutil.a; path = "../../Essentia-Libraries/i386-2.0.1/libavutil.a"; sourceTree = "<group>"; };
+		6F0360E319C2F5630014D74B /* libessentia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libessentia.a; path = "../../Essentia-Libraries/i386-2.0.1/libessentia.a"; sourceTree = "<group>"; };
+		6F0360E419C2F5630014D74B /* libfftw3f.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfftw3f.a; path = "../../Essentia-Libraries/i386-2.0.1/libfftw3f.a"; sourceTree = "<group>"; };
+		6F0360E519C2F5630014D74B /* libsamplerate.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsamplerate.a; path = "../../Essentia-Libraries/i386-2.0.1/libsamplerate.a"; sourceTree = "<group>"; };
+		6F0360E619C2F5630014D74B /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libswresample.a; path = "../../Essentia-Libraries/i386-2.0.1/libswresample.a"; sourceTree = "<group>"; };
+		6F0360E719C2F5630014D74B /* libtag.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtag.a; path = "../../Essentia-Libraries/i386-2.0.1/libtag.a"; sourceTree = "<group>"; };
+		6F0360E819C2F5630014D74B /* libyaml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libyaml.a; path = "../../Essentia-Libraries/i386-2.0.1/libyaml.a"; sourceTree = "<group>"; };
+		6F0360E919C2F5630014D74B /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = "../../Essentia-Libraries/i386-2.0.1/libz.a"; sourceTree = "<group>"; };
+		6F0360F419C2F6950014D74B /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		6F0360F619C2F6A50014D74B /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		6F0360F819C2F6B70014D74B /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
+		6F0360FA19C2F6C30014D74B /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		6F0360FE19C2F8340014D74B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6F03610019C2F83B0014D74B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6F225FB5197FBCB700FF85A2 /* esstst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esstst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F225FB8197FBCB700FF85A2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6F225FBB197FBCB700FF85A2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6F225FBC197FBCB700FF85A2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F225FBD197FBCB700FF85A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6F225FC0197FBCB700FF85A2 /* esstst-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "esstst-Info.plist"; sourceTree = "<group>"; };
+		6F225FC2197FBCB700FF85A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6F225FD7197FBCB700FF85A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6F225FEC197FBD8500FF85A2 /* File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = File.cpp; path = src/File.cpp; sourceTree = SOURCE_ROOT; };
+		6F225FED197FBD8500FF85A2 /* File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = File.h; path = src/File.h; sourceTree = SOURCE_ROOT; };
+		6F225FF2197FBEC800FF85A2 /* essentiaX.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = essentiaX.xcodeproj; path = ../../essentiaX/essentiaX.xcodeproj; sourceTree = "<group>"; };
+		6F5E979119E7F044009380C3 /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = /usr/local/Cellar/boost/1.55.0_2/lib/libboost_filesystem.a; sourceTree = "<absolute>"; };
+		6F5E979319E7F074009380C3 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = /usr/local/Cellar/boost/1.55.0_2/lib/libboost_system.a; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F225FB2197FBCB700FF85A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F03610119C2F83B0014D74B /* CoreMedia.framework in Frameworks */,
+				6F0360FF19C2F8340014D74B /* CoreVideo.framework in Frameworks */,
+				6F0360FB19C2F6C30014D74B /* libiconv.dylib in Frameworks */,
+				6F0360F919C2F6B70014D74B /* VideoDecodeAcceleration.framework in Frameworks */,
+				6F0360F719C2F6A60014D74B /* libstdc++.6.0.9.dylib in Frameworks */,
+				6F0360F519C2F6950014D74B /* libbz2.dylib in Frameworks */,
+				6F225FB9197FBCB700FF85A2 /* Cocoa.framework in Frameworks */,
+				6F0360EA19C2F5630014D74B /* libavcodec.a in Frameworks */,
+				6F0360EB19C2F5630014D74B /* libavformat.a in Frameworks */,
+				6F0360EC19C2F5630014D74B /* libavutil.a in Frameworks */,
+				6F0360EE19C2F5630014D74B /* libfftw3f.a in Frameworks */,
+				6F0360EF19C2F5630014D74B /* libsamplerate.a in Frameworks */,
+				6F0360F019C2F5630014D74B /* libswresample.a in Frameworks */,
+				6F5E979219E7F044009380C3 /* libboost_filesystem.a in Frameworks */,
+				6F5E979419E7F074009380C3 /* libboost_system.a in Frameworks */,
+				6F0360F119C2F5630014D74B /* libtag.a in Frameworks */,
+				6F0360F219C2F5630014D74B /* libyaml.a in Frameworks */,
+				6F0360F319C2F5630014D74B /* libz.a in Frameworks */,
+				6F94ED7019C2F94E00C92BCA /* libessentiaX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F225FAC197FBCB700FF85A2 = {
+			isa = PBXGroup;
+			children = (
+				6F225FBE197FBCB700FF85A2 /* esstst */,
+				6F3911FB19ED5A220061468A /* Libs */,
+				6F225FB7197FBCB700FF85A2 /* Frameworks */,
+				6F225FB6197FBCB700FF85A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F225FB6197FBCB700FF85A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F225FB5197FBCB700FF85A2 /* esstst.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F225FB7197FBCB700FF85A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F03610019C2F83B0014D74B /* CoreMedia.framework */,
+				6F0360FE19C2F8340014D74B /* CoreVideo.framework */,
+				6F0360F819C2F6B70014D74B /* VideoDecodeAcceleration.framework */,
+				6F225FF2197FBEC800FF85A2 /* essentiaX.xcodeproj */,
+				6F225FB8197FBCB700FF85A2 /* Cocoa.framework */,
+				6F225FD7197FBCB700FF85A2 /* XCTest.framework */,
+				6F225FBA197FBCB700FF85A2 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F225FBA197FBCB700FF85A2 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F225FBB197FBCB700FF85A2 /* AppKit.framework */,
+				6F225FBC197FBCB700FF85A2 /* CoreData.framework */,
+				6F225FBD197FBCB700FF85A2 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6F225FBE197FBCB700FF85A2 /* esstst */ = {
+			isa = PBXGroup;
+			children = (
+				6F225FBF197FBCB700FF85A2 /* Supporting Files */,
+				6F225FEC197FBD8500FF85A2 /* File.cpp */,
+				6F225FED197FBD8500FF85A2 /* File.h */,
+			);
+			path = esstst;
+			sourceTree = "<group>";
+		};
+		6F225FBF197FBCB700FF85A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F225FC0197FBCB700FF85A2 /* esstst-Info.plist */,
+				6F225FC1197FBCB700FF85A2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F225FF3197FBEC800FF85A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F225FF7197FBEC800FF85A2 /* libessentiaX.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F3911FB19ED5A220061468A /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				6F5E979319E7F074009380C3 /* libboost_system.a */,
+				6F5E979119E7F044009380C3 /* libboost_filesystem.a */,
+				6F0360FA19C2F6C30014D74B /* libiconv.dylib */,
+				6F0360F619C2F6A50014D74B /* libstdc++.6.0.9.dylib */,
+				6F0360F419C2F6950014D74B /* libbz2.dylib */,
+				6F0360E019C2F5630014D74B /* libavcodec.a */,
+				6F0360E119C2F5630014D74B /* libavformat.a */,
+				6F0360E219C2F5630014D74B /* libavutil.a */,
+				6F0360E319C2F5630014D74B /* libessentia.a */,
+				6F0360E419C2F5630014D74B /* libfftw3f.a */,
+				6F0360E519C2F5630014D74B /* libsamplerate.a */,
+				6F0360E619C2F5630014D74B /* libswresample.a */,
+				6F0360E719C2F5630014D74B /* libtag.a */,
+				6F0360E819C2F5630014D74B /* libyaml.a */,
+				6F0360E919C2F5630014D74B /* libz.a */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F225FB4197FBCB700FF85A2 /* esstst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F225FE6197FBCB700FF85A2 /* Build configuration list for PBXNativeTarget "esstst" */;
+			buildPhases = (
+				6F225FB1197FBCB700FF85A2 /* Sources */,
+				6F225FB2197FBCB700FF85A2 /* Frameworks */,
+				6F225FB3197FBCB700FF85A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F94ED7219C2F96E00C92BCA /* PBXTargetDependency */,
+			);
+			name = esstst;
+			productName = esstst;
+			productReference = 6F225FB5197FBCB700FF85A2 /* esstst.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F225FAD197FBCB700FF85A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 6F225FB0197FBCB700FF85A2 /* Build configuration list for PBXProject "esstst" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F225FAC197FBCB700FF85A2;
+			productRefGroup = 6F225FB6197FBCB700FF85A2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6F225FF3197FBEC800FF85A2 /* Products */;
+					ProjectRef = 6F225FF2197FBEC800FF85A2 /* essentiaX.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				6F225FB4197FBCB700FF85A2 /* esstst */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		6F225FF7197FBEC800FF85A2 /* libessentiaX.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libessentiaX.a;
+			remoteRef = 6F225FF6197FBEC800FF85A2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F225FB3197FBCB700FF85A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F225FC3197FBCB700FF85A2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F225FB1197FBCB700FF85A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F225FEE197FBD8500FF85A2 /* File.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F94ED7219C2F96E00C92BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = essentiaX;
+			targetProxy = 6F94ED7119C2F96E00C92BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6F225FC1197FBCB700FF85A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F225FC2197FBCB700FF85A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F225FE4197FBCB700FF85A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		6F225FE5197FBCB700FF85A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		6F225FE7197FBCB700FF85A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				ESSENTIA_SRC = /Users/mhermant/Documents/Work/Dev/Essentia/src/;
+				FFMPEGLIB = /usr/local/Cellar/ffmpeg/2.1.4/;
+				FFTW3 = /usr/local/Cellar/fftw/3.3.4/;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ESSENTIA_SRC)essentia",
+					"$(SITE_P)numpy/core/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PYTHON_H)",
+					"$(ESSENTIA_SRC)essentia/utils",
+					/usr/local/include,
+					"$(FFMPEGLIB)include",
+					"$(TAGLIB)include/taglib",
+					"$(ESSENTIA_SRC)python",
+					"$(ESSENTIA_SRC)",
+				);
+				INFOPLIST_FILE = "esstst/esstst-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/mhermant/Documents/Work/Dev/Essentia-Libraries/i386-2.0.1",
+					/Users/mhermant/Documents/Work/Dev/essentiaX/products,
+					"$(inherited)",
+					/usr/local/Cellar/boost/1.55.0_2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS) ";
+				OTHER_LDFLAGS = "-v";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PYTHON_H = /System/Libbrary/Frameworks/Python.framework/Versions/2.7/include/python2.7/;
+				SDKROOT = macosx;
+				SITE_P = "/usr/local/lib/python2.7/site-packages/";
+				TAGLIB = /usr/local/Cellar/taglib/1.9.1/;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6F225FE8197FBCB700FF85A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				ESSENTIA_SRC = /Users/mhermant/Documents/Work/Dev/Essentia/src/;
+				FFMPEGLIB = /usr/local/Cellar/ffmpeg/2.1.4/;
+				FFTW3 = /usr/local/Cellar/fftw/3.3.4/;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(ESSENTIA_SRC)essentia",
+					"$(SITE_P)numpy/core/include",
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PYTHON_H)",
+					"$(ESSENTIA_SRC)essentia/utils",
+					/usr/local/include,
+					"$(FFMPEGLIB)include",
+					"$(TAGLIB)include/taglib",
+					"$(ESSENTIA_SRC)python",
+					"$(ESSENTIA_SRC)",
+				);
+				INFOPLIST_FILE = "esstst/esstst-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/mhermant/Documents/Work/Dev/Essentia-Libraries/i386-2.0.1",
+					/Users/mhermant/Documents/Work/Dev/essentiaX/products,
+					"$(inherited)",
+					/usr/local/Cellar/boost/1.55.0_2/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS) ";
+				OTHER_LDFLAGS = "-v";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PYTHON_H = /System/Libbrary/Frameworks/Python.framework/Versions/2.7/include/python2.7/;
+				SDKROOT = macosx;
+				SITE_P = "/usr/local/lib/python2.7/site-packages/";
+				TAGLIB = /usr/local/Cellar/taglib/1.9.1/;
+				VALID_ARCHS = i386;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F225FB0197FBCB700FF85A2 /* Build configuration list for PBXProject "esstst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F225FE4197FBCB700FF85A2 /* Debug */,
+				6F225FE5197FBCB700FF85A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F225FE6197FBCB700FF85A2 /* Build configuration list for PBXNativeTarget "esstst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F225FE7197FBCB700FF85A2 /* Debug */,
+				6F225FE8197FBCB700FF85A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F225FAD197FBCB700FF85A2 /* Project object */;
+}
